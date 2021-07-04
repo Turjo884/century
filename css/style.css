@@ -148,3 +148,99 @@ header .fa-bars{
     text-transform: uppercase;
 }
 /* End Intro Section */
+
+/* Start Gallery Section */
+.gallery{
+    padding: 100px 0 75px;
+}
+.gallery-button-group{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.gallery-button-group ul li{
+    display: inline-block;
+    list-style: none;
+}
+.gallery-btn-1{
+    background: #fff;
+    color: #ef7e19;
+    border: 1px solid #ef7e19;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 20px;
+    font-size: 12px;
+    transition: .5s ease-in-out;
+}
+.gallery-btn-1:hover{
+    background:  #ef7e19;
+    color: #fff;
+}
+.gallery-btn-2{
+    background: #ef7e19;
+    color: #fff;
+    border: 1px solid #ef7e19;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 47.5px;
+    font-size: 12px;
+    transition: .5s ease-in-out;
+}
+.gallery-btn-2:hover{
+    background: #fff;
+    color: #ef7e19;
+}
+/* Start Gallery Item */
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.gallery-title{
+    position: relative;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    background: rgba(0,0,0,.5);
+    margin-top: -60px;
+}
+.gallery-title h3{
+    font-size: 20px; 
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.gallery-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ef7e19;
+    top: 0;
+    right: -100%;
+    transition: .5s ease-in-out;
+}
+.ghover-head{
+    background: #ff973a;
+}
+.ghover-head h3{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.ghover-body p{
+    color: #fff;
+    font-size: 14px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.gallery-item:hover .gallery-hover{
+    right: 0%;
+}
+/* End Gallery Item */
+/* Start Gallery Section */
