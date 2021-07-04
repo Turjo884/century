@@ -244,3 +244,38 @@ header .fa-bars{
 }
 /* End Gallery Item */
 /* Start Gallery Section */
+
+/* Start Structure Section */
+.structure{
+    padding: 0 0 75px;
+}
+.structure h1{
+    color: #232323;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 75px;
+}
+.structure h1 span{
+    color: #ef7e19;
+}
+.option-panel{
+    border-left: 5px solid #ef7e19;
+}
+.option-panel ul li{
+    list-style: none;
+    line-height: 60px;
+    color: #d0d0d0;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.option-panel ul span{
+    padding: 0 30px;
+    font-weight: 600;
+}
+.option-panel .active{
+    background: #f5f5f5;
+    color: #202020;
+}
+/* Start Structure Section */
