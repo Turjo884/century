@@ -3,22 +3,36 @@ $(document).ready(function(){
 
     $(".l1").click(function(){
        $(".l1").addClass("active");
+        
        $(".l2").removeClass("active");
+         
        $(".l3").removeClass("active");
+         
        $(".l4").removeClass("active");
+         
        $(".l5").removeClass("active");
+          
        $(".l6").removeClass("active");
+         
        $(".l7").removeClass("active");
+         
     });
 
     $(".l2").click(function(){
         $(".l1").removeClass("active");
+       
         $(".l2").addClass("active");
+       
         $(".l3").removeClass("active");
+       
         $(".l4").removeClass("active");
+      
         $(".l5").removeClass("active");
+      
         $(".l6").removeClass("active");
+       
         $(".l7").removeClass("active");
+       
      });
      
     $(".l3").click(function(){
