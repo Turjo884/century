@@ -551,6 +551,35 @@ footer .copyright p{
 /* End Footer Section */
 
 
+/* Start Media Quires For Tablet Device */
+@media (min-width: 576px) and (max-width: 768px){
+    .banner-content {padding: 15px 0 200px;}
+    .banner-content h1 {font-size: 35px;text-align: center;}
+    .banner-content p {text-align: center;}
+    .intro{background: initial;padding: 150px 0 50px;}
+    .intro h1 {font-size: 35px;padding-top:0;text-align: center;}
+    .intro p {text-align: center;}
+    .hotspot-img{display: block;margin: 50px auto;}
+    .btn-banner {width: 210px;display: block;margin: 0 auto;}
+    .hotspot-content {bottom: 129px;left: 119px;}
+    .gallery {padding: 25px 0 120px;}
+    .technology h2 {display: none;}
+    .gallery-item {width: 420px;margin: 25px auto 0;}
+    .structure h1 {font-size: 36px;margin-bottom: 60px;}
+    .structure h2 {display: none;}
+    .structure .click-img{margin: 25px 0;}
+    .information {padding: 20px 0 75px;}
+    .story h2 {display: none;}
+    .story-hover {width: 420px;margin: 25px auto 0;}
+    .client h1 {margin-bottom: 40px; text-align:center;font-size: 36px;}
+    .review h2 {display: none;}
+    .review-img p {padding: 20px 150px;}
+    .contact-info .fa-home, .contact-info .fa-phone, 
+    .contact-info .fa-envelope {margin-bottom: 5px;margin-top: 15px;}
+}
+/* Start Media Quires For Tablet Device */
+
+
 /* Start Media Quires For Mobile Device */
 @media (min-width: 320px) and (max-width: 576px){
     header {background-position: 30%;}
