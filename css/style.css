@@ -638,5 +638,7 @@ footer .copyright p{
     footer .form-control {width: 90%;}
     footer .btn-footer {width: 90%;}
     footer h1 {margin: 25px 0;font-size:26px;}
+    .contact-info .fa-home, .contact-info .fa-phone, 
+    .contact-info .fa-envelope {margin: 15px 0 8px;}
 }
 /* End Media Quires For Mobile Device */
